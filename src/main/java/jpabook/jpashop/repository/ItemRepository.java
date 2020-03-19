@@ -17,11 +17,7 @@ public class ItemRepository {
      * @param item
      */
     public void save(Item item){
-        if (item.getId() == null) {
-            em.persist(item);
-        } else {
-            em.merge(item);
-        }
+        em.persist(item);
     }
 
     /**

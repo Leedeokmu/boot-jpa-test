@@ -1,7 +1,7 @@
 spring:
-  thymeleaf:
-    prefix: file:src/main/resources/templates/
-    suffix: .html
+#  thymeleaf:
+#    prefix: file:src/main/resources/templates/
+#    suffix: .html
 
   resources:
     static-locations: file:src/main/resources/static/
